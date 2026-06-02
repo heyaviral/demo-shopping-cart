@@ -17,23 +17,41 @@
 
     <header>
         <nav>
-            <img src="images/logo.png" alt="" width="90px">
-            <div>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="nav-links">
+                <a href="" class="nav-btn">Home</a>
+                <a href="" class="nav-btn">About</a>
+                <a href="" class="nav-btn">Contact</a>
             </div>
 
-            <a href=""><img src="images/cart-outline.svg" alt="" width="90px"></a>
+            <div class="cart-icon"><a href="cart.html"><img src="images/cart-outline.svg" alt="" class="cart"></a>
+                <p class="cart-count">0</p>
+            </div>
+
 
 
         </nav>
+
+        <div class="sub-nav">
+            <input type="text" placeholder="Search for items..." class="search">
+
+        </div>
+
+        <h1>Grocery-needs, best price, convenient delivery!</h1>
+
+
+
+        <div class="products-grid">
+
+
+        </div>
+
     </header>
 
 
 
 
-
+    <script src="/scripts/cart.js"></script>
     <script src="scripts/script.js"></script>
 
 </body>
