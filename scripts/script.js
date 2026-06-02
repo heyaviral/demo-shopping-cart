@@ -1,7 +1,7 @@
 let products = [
     {
         name: "Lay's West Indies Hot 'n' Sweet Chilli",
-        image: "/images/Products/orange-lays.webp",
+        image: "images/Products/orange-lays.webp",
         price: 30,
 
 
@@ -9,7 +9,7 @@ let products = [
     ,
     {
         name: "Kellogg's Multigrain Chocos Fills Double Chocolaty",
-        image: "/images/Products/kellogs.webp",
+        image: "images/Products/kellogs.webp",
         price: 91,
 
     },
